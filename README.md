@@ -15,20 +15,21 @@ As an example, consider the text
 please sit spot. sit spot, sit. spot here now here.
 
 Because there is a comma after spot in the second sentence, a comma should be added after spot in the third sentence as well (but not the first sentence, since it is the last word of that sentence). Also, because there is a comma before the word sit in the second sentence, one should be added before that word in the first sentence (but no comma is added before the word sit beginning the second sentence because it is the first word of that sentence). Finally, notice that once a comma is added after spot in the third sentence, there exists a comma before the first occurrence of the word here. Therefore, a comma is also added before the other occurrence of the word here. There are no more commas to be added so the final result is
-  please, sit spot. sit spot, sit. spot, here now, here.
+
+please, sit spot. sit spot, sit. spot, here now, here.
 
 
 Sample Output 1
 For the input line:
-
 please sit spot. sit spot, sit. spot here now here.
-we should produce the output
 
+we should produce the output
 please, sit spot. sit spot, sit. spot, here now, here.
 
 
 Sample Output 2
 For the input line:
-  one, two. one tree. four tree. four four. five four. six five.
+one, two. one tree. four tree. four four. five four. six five.
+
 we should produce the output
-  one, two. one, tree. four, tree. four, four. five, four. six five.
+one, two. one, tree. four, tree. four, four. five, four. six five.
