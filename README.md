@@ -2,9 +2,12 @@
 In this problem, we want to insert commas in a piece of text by applying a set of custom rules that sprinkles commas in a sentence with no ambiguity and little simplicity. The idea is to develop an algorthm based on graph search to automate the rules.
 
 Our rules for adding commas to an existing piece of text are as follows:
-  If a word anywhere in the text is preceded by a comma, find all occurrences of that word in the text, and put a comma before each of those occurrences, except in the case where such an occurrence is the first word of a sentence or already preceded by a comma.
-  If a word anywhere in the text is succeeded by a comma, find all occurrences of that word in the text, and put a comma after each of those occurrences, except in the case where such an occurrence is the last word of a sentence or already succeeded by a comma.
-  Apply the preceding two rules repeatedly until no new commas can be added using either of them.
+
+If a word anywhere in the text is preceded by a comma, find all occurrences of that word in the text, and put a comma before each of those occurrences, except in the case where such an occurrence is the first word of a sentence or already preceded by a comma.
+
+If a word anywhere in the text is succeeded by a comma, find all occurrences of that word in the text, and put a comma after each of those occurrences, except in the case where such an occurrence is the last word of a sentence or already succeeded by a comma.
+
+Apply the preceding two rules repeatedly until no new commas can be added using either of them.
 
 As an example, consider the text
   please sit spot. sit spot, sit. spot here now here.
