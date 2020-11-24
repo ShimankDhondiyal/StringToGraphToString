@@ -20,6 +20,7 @@ please, sit spot. sit spot, sit. spot, here now, here.
 
 
 Sample Output 1
+
 For the input line:
 please sit spot. sit spot, sit. spot here now here.
 
@@ -28,6 +29,7 @@ please, sit spot. sit spot, sit. spot, here now, here.
 
 
 Sample Output 2
+
 For the input line:
 one, two. one tree. four tree. four four. five four. six five.
 
