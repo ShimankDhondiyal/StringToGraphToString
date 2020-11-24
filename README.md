@@ -3,11 +3,11 @@ In this problem, we want to insert commas in a piece of text by applying a set o
 
 Our rules for adding commas to an existing piece of text are as follows:
 
-If a word anywhere in the text is preceded by a comma, find all occurrences of that word in the text, and put a comma before each of those occurrences, except in the case where such an occurrence is the first word of a sentence or already preceded by a comma.
+  If a word anywhere in the text is preceded by a comma, find all occurrences of that word in the text, and put a comma before each of those occurrences, except in the case where such an occurrence is the first word of a sentence or already preceded by a comma.
 
-If a word anywhere in the text is succeeded by a comma, find all occurrences of that word in the text, and put a comma after each of those occurrences, except in the case where such an occurrence is the last word of a sentence or already succeeded by a comma.
+  If a word anywhere in the text is succeeded by a comma, find all occurrences of that word in the text, and put a comma after each of those occurrences, except in the case where such an occurrence is the last word of a sentence or already succeeded by a comma.
 
-Apply the preceding two rules repeatedly until no new commas can be added using either of them.
+  Apply the preceding two rules repeatedly until no new commas can be added using either of them.
 
 As an example, consider the text
   please sit spot. sit spot, sit. spot here now here.
